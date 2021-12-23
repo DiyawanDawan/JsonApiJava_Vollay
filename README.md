@@ -3,9 +3,12 @@ App Android Java with Json Api
 
 Jangan lupa tambahkan dependencies volly dan glide di "buildgralde module app" , supaya bisa menapilan Json Api yanng berbentuk RequestQueue volly dan juga glide untuk menapilkan image
 
-    implementation 'com.android.volley:volley:1.1.1   
-    implementation 'com.github.bumptech.glide:glide:4.12.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    dependencies {
+        implementation 'com.android.volley:volley:1.1.1
+        implementation 'com.github.bumptech.glide:glide:4.12.0'
+        annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    }
 
 Dokumentasi detail tentang dependencies vollay https://developer.android.com/training/volley/
 
