@@ -14,6 +14,34 @@ Tambakna Juga Android permissen Interet di AndroidManifaset
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
+Calass DataALgoritma
+
+    public DataALgoritma(String nameAlgoritma, String baca_lebih_lanjut, String description, String logo) {
+        this.nameAlgoritma = nameAlgoritma;
+        this.baca_lebih_lanjut = baca_lebih_lanjut;
+        this.description = description;
+        this.logo = logo;
+    }
+
+    public String getNameAlgoritma() {
+        return nameAlgoritma;
+    }
+
+    public String getBaca_lebih_lanjut() {
+        return baca_lebih_lanjut;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getLogo() {
+        return logo;
+    }
+}
+
+
+
 Dokumentasi detail tentang dependencies vollay https://developer.android.com/training/volley/
 
 Dekumentasi detail tentang glide https://iqcode.com/code/java/glide
