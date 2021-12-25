@@ -10,6 +10,10 @@ Jangan lupa tambahkan dependencies volly dan glide di "buildgralde module app" ,
         annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
     }
 
+Tambakna Juga Android permissen Interet di AndroidManifaset
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 Dokumentasi detail tentang dependencies vollay https://developer.android.com/training/volley/
 
 Dekumentasi detail tentang glide https://iqcode.com/code/java/glide
