@@ -5,7 +5,7 @@ Jangan lupa tambahkan dependencies volly dan glide di "buildgralde module app" ,
 
 
     dependencies {
-        implementation 'com.android.volley:volley:1.1.1
+        implementation 'com.android.volley:volley:1.1.1'
         implementation 'com.github.bumptech.glide:glide:4.12.0'
         annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
     }
